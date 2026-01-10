@@ -1,0 +1,126 @@
+ /* ///////////////////////////////////////////////media quries */
+ @media screen and (max-width:1167px) {
+     .slider-2 h1 {
+         font-size: 35px !important;
+     }
+
+     .cards-overlay {
+         margin-top: 0;
+     }
+
+ }
+
+ @media screen and (max-width: 992px) {
+     .slider-heading {
+         font-size: 40px !important;
+     }
+
+     .cards-overlay {
+         margin-top: 0 !important;
+     }
+
+
+     .carousel-content p {
+         font-size: 12px;
+     }
+
+     .slider-2 h1 {
+         font-size: 25px !important;
+     }
+ }
+
+
+ @media screen and (max-width:847px) {
+     .layout .icons {
+         display: none;
+     }
+
+     .carousel-content button {
+         display: none !important;
+     }
+
+     .carousel-content p {
+         font-size: 10px !important;
+     }
+ }
+
+ @media screen and (max-width:662px) {
+     .slider-heading {
+         font-size: 20px !important;
+     }
+
+     .carousel-content p {
+         font-size: 8px !important;
+     }
+ }
+
+ @media screen and (max-width:546px) {
+     .carousel-content h5 {
+         font-size: 10px !important;
+     }
+
+     .slider-2 h1 {
+         font-size: 16px !important;
+     }
+
+     .carousel-content p {
+         display: none;
+     }
+
+     .hero-content, .causes-content ,.video-container{
+        margin-left: 0 !important;
+     }
+
+     .hero-content p, .causes-content p{
+        width: 100%;
+     }
+
+ }
+
+ /*/////////////////////////////////////////////// hero section  */
+ @media screen and (max-width:1535px) {
+    .hero-content , .causes-conten ,.video-containert{
+        /* margin-left: 12em !important; */
+    }
+
+    .hero-content h1 ,.causes-content h1{
+        font-size: 50px !important;
+    }
+ }
+
+@media screen and (max-width:1176px){
+    .hero-content, .causes-content{
+        /* margin-left: 9em; */
+    }
+
+    /* .hero-content h1{
+        font-size: 40px !important;
+    } */
+}
+
+@media screen and (max-width:1202px) {
+    .hero-content ,.causes-content ,.video-container{
+        margin-left: 50px;
+    }
+    /* .hero-content h1{
+        font-size: 35px !important;
+    } */
+    
+}
+
+@media screen and (max-width: 766px) {
+    /* .hero-content{
+        padding-left: 80px;
+    } */
+    .hero-content h1 ,.causes-content h1{
+        font-size: 28px !important;
+    }
+
+    .hero-content p ,.causes-content p{
+        font-size: 10px !important;
+    }
+     
+    .hero-content button, .causes-content button{
+        margin-top: 10px !important;
+    }
+ }
