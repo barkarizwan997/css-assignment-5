@@ -29,9 +29,6 @@
      .card-body {
          padding: 2rem !important;
      }
-
-
-
  }
 
  @media screen and (max-width: 992px) {
@@ -51,10 +48,7 @@
      .slider-2 h1 {
          font-size: 25px !important;
      }
-
-
  }
-
 
  @media screen and (max-width:847px) {
      .layout .icons {
@@ -104,36 +98,17 @@
          width: 100%;
      }
 
-     /* .causes3 .causes-content{
-        width: 100% !important;
-     } */
-
      .causes3 .causes-content {
          margin-left: 30px !important;
      }
-
  }
 
  /*/////////////////////////////////////////////// hero section  */
  @media screen and (max-width:1535px) {
-
-     .hero-content,
-     .causes-conten,
-     .video-containert {
-         /* margin-left: 12em !important; */
-     }
-
      .hero-content h1,
      .causes-content h1 {
          font-size: 50px !important;
      }
- }
-
- @media screen and (max-width:1176px) {
-     /* .causes3 .causes-content h1{
-    font-size: 35px !important;
-    } */
-
  }
 
  @media screen and (max-width:1202px) {
@@ -146,28 +121,40 @@
      .video-container {
          margin-right: 50px;
      }
-
  }
 
  @media screen and (max-width: 766px) {
-
-     .hero-content h1,
-     .causes-content h1 {
-         font-size: 28px !important;
-     }
-
-     .hero-content p,
-     .causes-content p {
-         font-size: 10px !important;
-     }
-
-
-     /* .causes3 .causes-content h1{
-        font-size: 20px !important;
-    } */
-
      .hero-content button,
      .causes-content button {
          margin-top: 10px !important;
      }
+     .blog .container .col .card{
+        width: 100% !important;
+     }
+
+    section {
+        min-height: 40vh; 
+    }
+    .hero-content, .causes-content {
+        padding: 4rem 1rem; 
+    }
+
+     .about h1 ,.hero h1 {
+      padding-top: 40px;
+        font-size: 32px !important; 
+        line-height: 1.2;
+    }
+
+    .hero h1{
+        padding-top: 0;
+    }
+    
+    .about p {
+        font-size: 14px;
+        br { display: none; } 
+    }
+
+    .about .hero-content {
+        padding: 40px 15px; 
+    }
  }
