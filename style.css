@@ -564,3 +564,67 @@
   background-color: #f8b864;
   color: #fff;
 }
+
+
+.gallery-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery-wrap img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Hover par image zoom hogi */
+.gallery-wrap:hover img {
+    transform: scale(1.1);
+}
+
+/* Hover Overlay (Jo image ke upar aayega) */
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 23, 23, 0.8); /* Charitify Theme Color with Transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.gallery-wrap:hover .hover-overlay {
+    opacity: 1;
+}
+
+.hover-overlay i {
+    color: white;
+    font-size: 30px;
+    background:#f8b864;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#galleryModal .modal-content {
+    background: transparent; /* Taake sirf image aur buttons nazar aayein */
+}
+
+.carousel-item img {
+    border-radius: 8px;
+    max-height: 80vh; /* Mobile par image screen se bahar na jaye */
+    object-fit: contain;
+}
